@@ -1,10 +1,18 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+align-content: center;
+}
+
 .image{
     width: 500px;
     height: 300px;
-    
+    align-content: center;
 }
 
 .text{
     font-family: 'Dancing Script', cursive;
 font-family: 'Lobster', cursive;
 }
+
