@@ -1,18 +1,41 @@
 .wrapper{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-align-content: center;
+    flex-direction: column;
+    align-content: center;
 }
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 20px;
+    background-color: rgb(214, 255, 241);
+    font-family: 'Xanh Mono', monospace;
+    }
 
 .image{
     width: 500px;
     height: 300px;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.text{
-    font-family: 'Dancing Script', cursive;
-font-family: 'Lobster', cursive;
+.h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.header {
+    text-align: center;
+}
+
+.footer {
+    margin: 20px;
+    padding: 20px 40px 20px;
+    background-color: rgb(220, 220, 241);
+}
+
+.footer p {
+    color: rgb(218, 19, 19);
+}
